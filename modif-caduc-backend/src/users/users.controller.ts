@@ -1,4 +1,4 @@
-import { Controller, Patch, Param, Body} from '@nestjs/common';
+import { Controller, Patch, Param, Body } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { ActualizarCaducidadDto } from './dto/actualiza-caducidad.dto';
 
