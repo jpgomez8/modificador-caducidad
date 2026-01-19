@@ -1,0 +1,21 @@
+<div class="container">
+  <h2>Modificar caducidad contraseña 📅🔒</h2>
+
+  <input
+    type="text"
+    class="form-control"
+    placeholder="ID del usuario"
+    [(ngModel)]="userId"
+    name="userId"
+    #userIdInput
+  />
+
+  <input
+    type="date"
+    [(ngModel)]="fechaCaducidad"
+  />
+
+  <button (click)="modificarCaducidad()">
+    Modificar caducidad
+  </button>
+</div>

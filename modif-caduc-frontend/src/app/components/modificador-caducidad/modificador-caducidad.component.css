@@ -1,0 +1,85 @@
+.container {
+  max-width: 420px;
+  margin: 80px auto;
+  padding: 24px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+  font-family: system-ui, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+input {
+  width: 100%;
+  max-width: 340px;
+  display: block;
+  margin: 0 auto 14px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+input::placeholder {
+  color: #999;
+  font-size: 13px;
+}
+
+button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+
+  background: linear-gradient(
+    135deg,
+    #1f4e79 0%,
+    #2b6cb0 45%,
+    #3b82f6 70%,
+    #fbbf24 100%
+  );
+
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 200;
+  cursor: pointer;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: 
+    background 0.4s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+button:hover {
+  background: linear-gradient(
+    135deg,
+    #163a5f 0%,
+    #245aa5 45%,
+    #2563eb 70%,
+    #f59e0b 100%
+  );
+
+  transform: translateY(-1px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
